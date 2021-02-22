@@ -32,16 +32,6 @@ Page({
         }
       }
     })
-
-    // wx.request({
-    //   url: 'http://152.136.185.210:8000/api/w6/recommend',
-    //   success: (res) => {
-    //     const data = res.data.data.list;
-    //     this.setData({
-    //       list: data
-    //     })
-    //   }
-    // })
   },
 
   /**
