@@ -1,7 +1,2 @@
-<!--pages/index/index.wxml-->
-<button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">获取用户信息</button>
-
-<open-data type="userAvatarUrl"></open-data>
-<open-data type="userNickName"></open-data>
-
-<view wx:for="{{list}}" wx:key="id">{{item.title}}</view>
+<button bindtap="handleImageClick">选择图片</button>
+<image src="{{imageUrl}}" />
