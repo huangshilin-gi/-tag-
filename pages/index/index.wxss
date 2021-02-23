@@ -1,1 +1,23 @@
 /* pages/index/index.wxss */
+.conten{
+  background: blueviolet;
+  white-space: nowrap;
+}
+.conten .item-color{
+  width: 60px;
+  height: 60px;
+  background: blue;
+  margin: 4px;
+  display: inline-block;
+}
+
+.conten-y{
+  background: blue;
+  height: 200px;
+  margin-top: 40px;
+} 
+.conten-y .item-color0{
+  height: 60px;
+  margin: 4px;
+  background: palegreen;
+}

@@ -1,0 +1,8 @@
+<scroll-view class="conten" scroll-x>
+  <view wx:for="{{10}}" class="item-color">{{item}}</view>
+</scroll-view>
+
+
+<scroll-view class="conten-y" scroll-y>
+  <view wx:for="{{10}}" class="item-color0">{{item}}</view>
+</scroll-view>
