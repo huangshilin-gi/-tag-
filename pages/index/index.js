@@ -9,19 +9,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    list: [],
-    imageUrl: ''
-  },
-
-  handleImageClick(){
-    wx.chooseImage({
-      success: (res) => {
-        const path = res.tempFilePaths[0];
-        this.setData({
-          imageUrl: path
-        })
-      }
-    })
+  
   },
 
 

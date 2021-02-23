@@ -1,2 +1,0 @@
-<button bindtap="handleImageClick">选择图片</button>
-<image src="{{imageUrl}}" />
