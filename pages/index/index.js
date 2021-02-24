@@ -9,9 +9,29 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    list: ["衣服", "裤子", "鞋子"],
   },
 
+  handleStart(){
+    console.log('开始');
+  },
+
+  handleMove(){
+    console.log('移动');
+  },
+
+  handleChend(){
+    console.log('放开');
+  },
+
+  handlePress(){
+     console.log('按下');
+  },
+
+  handleNavClick(event){
+    const res = event.target.dataset;
+    console.log(res);
+  },
 
   /**
    * 生命周期函数--监听页面加载

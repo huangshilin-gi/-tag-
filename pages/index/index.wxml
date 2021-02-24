@@ -1,0 +1,17 @@
+<view class="views" 
+  bindtouchmove="handleMove"
+  bindtouchstart="handleStart"
+  bindtouchend="handleChend"
+  bindlongpress="handlePress">
+   点击
+</view>
+
+<view class="nav-flex">
+  <view wx:for="{{list}}" class="nav-flex-item"
+    wx:key="index"
+    bindtap="handleNavClick"
+    data-index="{{index}}"
+    data-item="{{item}}">
+    {{item}}
+  </view>
+</view>

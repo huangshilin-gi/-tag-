@@ -1,1 +1,14 @@
 /* pages/index/index.wxss */
+.views{
+  width: 80px;
+  height: 80px;
+  background: pink;
+}
+
+.nav-flex{
+  display: flex;
+}
+.nav-flex .nav-flex-item{
+  flex: 1;
+  text-align: center;
+}
