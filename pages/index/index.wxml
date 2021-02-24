@@ -1,0 +1,9 @@
+<wxs src="../../wxs/info.wxs" module="info"/>
+
+<view>{{info.message}}</view>
+<view>{{info.name}}</view>
+<view>{{info.sum(10, 20)}}</view>
+
+
+<wxs src="../../wxs/format.wxs" module="format"/>
+<view>{{format.priceFormat(price, 1)}}</view>
