@@ -1,4 +1,9 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "my-cpn": "/comopnents/my-cpn/my-cpn",
+    "my-event": "/comopnents/my-event/my-event",
+    "my-nav": "/comopnents/my-nav/my-nav",
+    "my-sel": "/comopnents/my-sel/my-sel"
+  },
   "navigationBarTitleText": "首页"
 }

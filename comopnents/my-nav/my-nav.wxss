@@ -1,0 +1,16 @@
+/* comopnents/my-nav/my-nav.wxss */
+.nav-flex{
+  display: flex;
+  margin-top: 40rpx;
+}
+.nav-flex .nav-flex-item{
+  flex: 1;
+  text-align: center;
+}
+.active{
+  color: red;
+}
+.active text{
+  border-bottom: 3px solid red;
+  padding: 10rpx 20rpx;
+}

@@ -9,9 +9,29 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    counter: 0,
+    titles: ["流行", "新款", "特价"],
+    navindex: 0
   },
 
+  handleincrement(event){
+    console.log(event.detail.message);
+    this.setData({
+      counter: this.data.counter + 1
+    })
+  },
+
+  handleNavedClick(event){
+    const navindex = event.detail.index;
+    this.setData({
+      navindex
+    })
+  },
+
+  handleSelClick(){
+    const mysel = this.selectComponent(".mysel-id");
+    mysel.incrementCounter(10);
+  },
 
   /**
    * 生命周期函数--监听页面加载

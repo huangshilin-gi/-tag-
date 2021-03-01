@@ -1,0 +1,2 @@
+<!--comopnents/my-cpn/my-cpn.wxml-->
+<view class="titleclass">{{title}}</view>

@@ -1,0 +1,11 @@
+<!--comopnents/my-nav/my-nav.wxml-->
+
+<view class="nav-flex">
+  <block wx:for="{{titles}}" wx:key="index">
+    <view class="nav-flex-item {{selectedIndex == index ? 'active' : ''}}"
+      data-index="{{index}}"
+      bindtap="handleNavTitleClick">
+      <text>{{item}}</text>
+    </view>
+  </block>
+</view>

@@ -1,0 +1,2 @@
+<!--comopnents/my-sel/my-sel.wxml-->
+<view>页面调用组件计数: {{counter}}</view>

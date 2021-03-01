@@ -1,0 +1,11 @@
+<my-cpn title="哈哈哈" titleclass="red"></my-cpn>
+<my-cpn titleclass="blue"></my-cpn>
+
+<view>计数: {{counter}}</view>
+<my-event bind:increment="handleincrement"/>
+
+<my-nav titles="{{titles}}" bind:navSelected="handleNavedClick"/>
+<view>{{navindex}}</view>
+
+<button style="margin-top: 40rpx;" bindtap="handleSelClick">修改组件内的数</button>
+<my-sel class="mysel-id"/>
